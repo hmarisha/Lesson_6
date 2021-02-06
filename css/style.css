@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap&subset=cyrillic-ext');
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: lora;
+	font-size: 30px;
+	line-height: 1;
+	color:black;
+}
+/*-------------------------------------*/
+
+.wrap {
+	background-color: rgb(252, 240, 225);
+	max-width: 1110px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.block_1 {
+	padding: 50px;
+	border-bottom: 10px dotted chocolate;
+	outline: 5px double crimson;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.img_1 {
+	max-width: 45%;
+	border: 20px solid rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px 10px chartreuse;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.title {
+	font-family: Pacifico;
+	font-size: 60px;
+	text-align: center;
+	display: inline-block;
+	max-width: 45%;
+	background-color: chartreuse;
+	box-shadow: 0px 0px 10px 10px #fff;
+	border-radius: 10px 100px;
+	padding: 25px;
+}
+/* -------------------- */
+.block_2 {
+	text-align: left;
+	padding-bottom: 50px;
+}
+.block_2__subtitle {
+	font-family: Pacifico;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 60px;
+	text-shadow: 3px 3px 3px crimson;
+}
+.block_2_block {
+	max-width: 80%;
+	margin: 0 auto;
+}
+.point {	
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+	border-radius: 50%;
+	margin-right: 40px;
+	box-shadow: 1px 1px 30px 2px crimson;
+	vertical-align: top;
+}
+.block_2__text {
+	font-size: 30px;
+	display: inline-block;
+	max-width: 80%;
+	border-left: 5px solid crimson;
+	padding: 0 30px;
+	text-align: justify;
+}
+.block_2__text a {
+	color: crimson;
+}
+
+/* -------------- */
+
+.block_3 {
+	background-color: #fff;
+	padding: 60px;
+}
+.block_3__img {
+	max-width: 400px;
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 20px solid #fff;
+	box-shadow: 0 0 20px 10px chartreuse;
+}
+.block_3__text_1 {
+	text-decoration: line-through;
+	line-height: 2;
+}
+.block_3__text_2 {
+	color: chartreuse;
+	border-bottom: 3px dashed cornflowerblue;
+	line-height: 2;
+}
+.opacity{
+	max-width: 500px;
+	max-height: 500px;
+	float: right;
+	margin-top: -400px;
+	opacity: 0.3;
+	box-shadow: -10px -10px 10px 10px;
+}
+.block_3__img_2{
+	width: 100%;
+}
+/* ----------- */
+
+.block_4 {
+	margin: 60px;
+}
+.block_4__text{
+	font-family: Roboto;
+	font-weight: 700;
+	line-height: 2;
+	max-width: 70%;
+	max-height: 300px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #fff;
+	margin-bottom: 20px;
+	box-shadow: inset 0px 0px 20px 30px rgba(128, 128, 128, 0.616);
+	padding: 20px;
+}
+.poinfers {
+	max-width: 100%;
+	text-align: center;
+}
+.poinfers div{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(0, 255, 255);
+	border-radius: 50%;
+	box-shadow: inset 10px 10px 20px 5px rgb(236, 250, 250), inset -5px -5px 15px 6px rgb(145, 145, 145), 15px 10px 10px 1px rgb(145, 145, 145);
+	margin: 0 20px 20px 20px;
+}
+
+/* ---------------------- */
+
+.block_5 {
+	font-family: Pacifico;
+	padding: 20px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.block_5__title {
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	background-color: chartreuse;
+}
+
+.block_5 p {
+	font-size: 40px;
+	color: chartreuse;
+	text-shadow: 1px 1px 1px #000;
+	margin-bottom: 20px;
+	border-left: 2px double chartreuse;
+	border-right: 2px double chartreuse;
+	padding: 0px 20px;
+}
+.block_5__img {
+	max-width: 200px;
+	margin: 0 auto;
+}
+.block_5 img {	
+	width: 100%;
+}
